@@ -1,15 +1,29 @@
 
+require("Kml/Color.rb")
+
 module Kml
 
 	class HsvColor
 		
+		include(Color)
+		
 		attr_accessor(:hue, :saturation, :value, :alpha)
 		
 		def initialize(h, s, v, a = 1.0)
-			self.hue, self.saturation, self.value, self.alpha = h, s, v, a
+			@hue, @saturation, @value, @alpha = h, s, v, a
 		end
 		
-		def to_kml_hex_color()
+		def to_abgr_hex()
+			normalized_to_hex(*get_rgba_values().reverse())
+		end
+		
+		def to_rgba_hex()
+			normalized_to_hex(*get_rgba_values())
+		end
+		
+		private
+		
+		def get_rgba_values()
 			h_i = (self.hue).div(1.0/6.0)
 			f = (self.hue / (1.0/6.0)) - h_i
 			p = self.value * (1 - self.saturation)
@@ -19,28 +33,18 @@ module Kml
 			
 			case h_i
 				when 1
-					return denormalize(q, self.value, p, self.alpha)
+					return [q, @value, p, @alpha]
 				when 2
-					return denormalize(p, self.value, t, self.alpha)
+					return [p, @value, t, @alpha]
 				when 3
-					return denormalize(p, q, self.value, self.alpha)
+					return [p, q, @value, @alpha]
 				when 4
-					return denormalize(t, p, self.value, self.alpha)
+					return [t, p, @value, @alpha]
 				when 5
-					return denormalize(self.value, p, q, self.alpha)
+					return [@value, p, q, @alpha]
 				else
-					return denormalize(self.value, t, p, self.alpha)
+					return [@value, t, p, @alpha]
 			end
-		end
-		
-		private
-		
-		def denormalize(r, g, b, a)
-			return "#{normalized2hex(a)}#{normalized2hex(b)}#{normalized2hex(g)}#{normalized2hex(r)}" 
-		end
-		
-		def normalized2hex(normalized)
-			(normalized * 255).floor().to_s(16).rjust(2, "0")
 		end
 		
 	end

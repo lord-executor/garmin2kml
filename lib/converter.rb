@@ -76,7 +76,7 @@ input.each_element("/gpx/trk/trkseg") do |trackSegment|
 	style = Kml::Style.new("segment#{currentSegment}")
 	style.lineStyle = Kml::LineStyle.new()
 	style.lineStyle.width = 5.0
-	style.lineStyle.color = Kml::HsvColor.new((currentSegment - 1.0)/segmentCount, 1.0, 1.0, 0.5).to_kml_hex_color()
+	style.lineStyle.color = Kml::HsvColor.new((currentSegment - 1.0)/segmentCount, 1.0, 1.0, 0.5).to_abgr_hex()
 	segment.add_style(style)
 	segment.styleUrl = "#segment#{currentSegment}"
 	

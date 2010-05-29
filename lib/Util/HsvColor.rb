@@ -1,7 +1,7 @@
 
-require("Kml/Color.rb")
+require("Util/Color.rb")
 
-module Kml
+module Garmin2Kml::Util
 
 	class HsvColor
 		

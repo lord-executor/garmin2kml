@@ -9,6 +9,7 @@ require("Kml/IconStyle")
 require("Kml/LineStyle")
 require("Kml/Icon")
 require("Util/HsvColor")
+require("Xml/Formatters/Reasonable")
 
 include REXML
 
@@ -109,7 +110,9 @@ endMark.geometry = Kml::Point.new()
 endMark.geometry.position = gpx2kml(endPoint)
 kmlDoc.add_feature(endMark)
 
-kmlDoc.xmlDoc.write($stdout, 1, true)
+#kmlDoc.xmlDoc.write($stdout, 1, true)
+formatter = Xml::Formatters::Reasonable.new()
+formatter.write(kmlDoc.xmlDoc, $stdout)
 
 Process.exit
 

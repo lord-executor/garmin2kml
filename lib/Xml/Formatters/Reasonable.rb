@@ -24,7 +24,7 @@ module Xml
 				if node.children.empty?
 					output << " /"
 				else
-					has_text = node.children.any? { |c| c.instance_of?(Text) }
+					has_text = node.children.any? { |c| c.instance_of?(REXML::Text) }
 					@current_indent += @indentation
 					output << ">"
 					node.children.each do |child|

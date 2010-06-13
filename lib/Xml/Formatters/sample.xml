@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person name='Anakin Skywalker'>
+  <contact>
+    <skype>darth.vader</skype>
+    <email>lord.vader@hotmail.com</email>
+  </contact>
+  <alias>Lord Vader</alias>
+  <alias>Darth Vader</alias>
+  <alias>Luke&apos;s Dad</alias>
+  <jobs>
+    <job from='1977' until='1983'>Lacky of emperor Palpatine</job>
+    <job from='1983' until='1999'>Dead Jedi</job>
+    <job from='1999' until='2002'>Young padawan in training</job>
+  </jobs>
+</person>

@@ -1,3 +1,8 @@
+
+current_dir = File.expand_path(File.dirname(__FILE__))
+
+$LOAD_PATH << current_dir
+
 require("rexml/document")
 require("Kml/Document")
 require("Kml/Placemark")
@@ -11,7 +16,7 @@ require("Kml/Icon")
 require("Util/HsvColor")
 require("Xml/Formatters/Reasonable")
 
-include REXML
+include(REXML)
 
 Radius = 6371 # mean earth radius in km
 

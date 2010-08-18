@@ -49,11 +49,3 @@ module Xml
 		
 	end
 end
-
-#include(Xml::Formatters)
-#include(REXML)
-
-## read document removing all whitespace-only text nodes
-#doc = Document.new(File.new("sample.xml"), { :ignore_whitespace_nodes => :all })
-#formatter = Reasonable.new()
-#formatter.write(doc, $stdout)

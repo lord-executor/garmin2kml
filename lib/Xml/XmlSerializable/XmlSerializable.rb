@@ -62,6 +62,10 @@ module XmlSerializable
 		!(@metadata[:xml].select() { |meta| meta[:xml_type] == :text }).empty?()
 	end
 	
+	def get_xml_metadata()
+		@metadata[:xml]
+	end
+	
 	def print_metadata()
 		p @metadata
 	end

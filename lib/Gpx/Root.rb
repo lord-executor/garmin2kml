@@ -1,6 +1,5 @@
 
 require("Xml/XmlSerializable/XmlSerializable")
-require("Xml/XmlSerializable/Serializer")
 require("Gpx/Track")
 
 module Gpx

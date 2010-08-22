@@ -1,6 +1,5 @@
 
 require("rexml/document")
-require("Xml/XmlSerializable/Serializer")
 
 module XmlSerializable
 	

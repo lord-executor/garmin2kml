@@ -1,6 +1,6 @@
 
 require("Xml/XmlSerializable/XmlSerializable")
-require("Xml/XmlSerializable/Serializer")
+require("Gpx/TrackSegment")
 
 module Gpx
 
@@ -10,7 +10,7 @@ module Gpx
 		attr_accessor(:name, :segments)
 		
 		xml_element(:@name, "name", String)
-		xml_array(:@segments, "trkseg", String)
+		xml_array(:@segments, "trkseg", TrackSegment)
 	end
 
 end

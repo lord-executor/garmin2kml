@@ -1,0 +1,5149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:tc2="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp1="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="TC2 to GPX11 XSLT stylesheet" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+<trk>
+<name>Track Name</name>
+<trkseg>
+<trkpt lat="47.4205350" lon="8.5350356">
+<ele>419.2722168</ele>
+<time>2010-05-24T10:05:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>101</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4204199" lon="8.5349900">
+<ele>414.9461670</ele>
+<time>2010-05-24T10:05:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>102</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4204196" lon="8.5348991">
+<ele>417.8302002</ele>
+<time>2010-05-24T10:05:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>103</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4204096" lon="8.5348163">
+<ele>415.4268799</ele>
+<time>2010-05-24T10:05:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>106</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4203772" lon="8.5348046">
+<ele>413.9848633</ele>
+<time>2010-05-24T10:05:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>107</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4201842" lon="8.5345984">
+<ele>409.6590576</ele>
+<time>2010-05-24T10:06:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>112</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4201137" lon="8.5344753">
+<ele>411.1009521</ele>
+<time>2010-05-24T10:06:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>117</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200616" lon="8.5343757">
+<ele>416.3881836</ele>
+<time>2010-05-24T10:06:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>123</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200287" lon="8.5343223">
+<ele>420.2333984</ele>
+<time>2010-05-24T10:06:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>128</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200134" lon="8.5342925">
+<ele>422.1560059</ele>
+<time>2010-05-24T10:06:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>133</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4199417" lon="8.5341327">
+<ele>434.6533203</ele>
+<time>2010-05-24T10:06:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>138</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4198780" lon="8.5339421">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:06:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>139</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4198158" lon="8.5337178">
+<ele>456.7635498</ele>
+<time>2010-05-24T10:06:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>139</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4197928" lon="8.5335647">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:06:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>140</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4198155" lon="8.5333393">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:06:37Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>143</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4199170" lon="8.5330850">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:06:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>146</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4199553" lon="8.5329053">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:06:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>149</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200128" lon="8.5326034">
+<ele>457.7249756</ele>
+<time>2010-05-24T10:06:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>151</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200493" lon="8.5323283">
+<ele>457.2442627</ele>
+<time>2010-05-24T10:07:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>152</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200667" lon="8.5320858">
+<ele>457.7249756</ele>
+<time>2010-05-24T10:07:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>152</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200889" lon="8.5318413">
+<ele>459.1668701</ele>
+<time>2010-05-24T10:07:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>151</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200978" lon="8.5315081">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:07:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>153</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4200978" lon="8.5312220">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:07:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>156</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4201117" lon="8.5309279">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:07:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4201189" lon="8.5306083">
+<ele>462.0507813</ele>
+<time>2010-05-24T10:07:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>156</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4201593" lon="8.5303738">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:07:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4202305" lon="8.5301641">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:07:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4203241" lon="8.5299474">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:08:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4203953" lon="8.5297532">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:08:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4204645" lon="8.5295090">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:08:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4205198" lon="8.5292549">
+<ele>460.1281738</ele>
+<time>2010-05-24T10:08:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>156</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4205839" lon="8.5289921">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:08:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4206480" lon="8.5286580">
+<ele>463.0120850</ele>
+<time>2010-05-24T10:08:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4207009" lon="8.5283873">
+<ele>463.0120850</ele>
+<time>2010-05-24T10:08:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4208050" lon="8.5280943">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:08:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4209327" lon="8.5278308">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:09:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4210665" lon="8.5275755">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:09:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4211866" lon="8.5273548">
+<ele>457.2442627</ele>
+<time>2010-05-24T10:09:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4213048" lon="8.5271349">
+<ele>456.2829590</ele>
+<time>2010-05-24T10:09:20Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4214432" lon="8.5268706">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:09:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4215724" lon="8.5265918">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:09:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4216856" lon="8.5263084">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:09:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4217734" lon="8.5260083">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:09:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4218348" lon="8.5256920">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:09:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4219043" lon="8.5253924">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:10:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4220966" lon="8.5253559">
+<ele>453.3989258</ele>
+<time>2010-05-24T10:10:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4223191" lon="8.5253563">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:10:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4225398" lon="8.5252687">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:10:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4227255" lon="8.5251616">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:10:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4229822" lon="8.5250622">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:10:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4231759" lon="8.5250360">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:10:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4233955" lon="8.5250590">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:10:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4236137" lon="8.5250558">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:10:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237538" lon="8.5250134">
+<ele>454.8408203</ele>
+<time>2010-05-24T10:11:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238591" lon="8.5248771">
+<ele>453.3989258</ele>
+<time>2010-05-24T10:11:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238699" lon="8.5248246">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:11:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4239291" lon="8.5246067">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:11:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238716" lon="8.5243187">
+<ele>457.7249756</ele>
+<time>2010-05-24T10:11:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238686" lon="8.5242672">
+<ele>457.7249756</ele>
+<time>2010-05-24T10:11:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238537" lon="8.5239300">
+<ele>457.2442627</ele>
+<time>2010-05-24T10:11:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238295" lon="8.5237060">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:11:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238278" lon="8.5234012">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:11:38Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238254" lon="8.5231409">
+<ele>453.3989258</ele>
+<time>2010-05-24T10:11:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238147" lon="8.5227875">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:11:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238109" lon="8.5225393">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:11:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238066" lon="8.5222511">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:12:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238006" lon="8.5219137">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:12:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237852" lon="8.5216389">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:12:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237601" lon="8.5213219">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:12:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237590" lon="8.5210639">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:12:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237760" lon="8.5207957">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:12:38Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237654" lon="8.5204724">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:12:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237560" lon="8.5201346">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:12:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237497" lon="8.5199299">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:12:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237570" lon="8.5197002">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:13:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237807" lon="8.5194379">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:13:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237638" lon="8.5191701">
+<ele>437.5371094</ele>
+<time>2010-05-24T10:13:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237322" lon="8.5188532">
+<ele>436.0952148</ele>
+<time>2010-05-24T10:13:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237229" lon="8.5186230">
+<ele>435.6145020</ele>
+<time>2010-05-24T10:13:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237477" lon="8.5183751">
+<ele>434.1726074</ele>
+<time>2010-05-24T10:13:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237586" lon="8.5181252">
+<ele>434.6533203</ele>
+<time>2010-05-24T10:13:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237446" lon="8.5178470">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:13:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237544" lon="8.5175744">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:13:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237493" lon="8.5173070">
+<ele>439.9404297</ele>
+<time>2010-05-24T10:13:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237382" lon="8.5170775">
+<ele>439.9404297</ele>
+<time>2010-05-24T10:14:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4237387" lon="8.5170051">
+<ele>439.4597168</ele>
+<time>2010-05-24T10:14:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238546" lon="8.5168830">
+<ele>439.4597168</ele>
+<time>2010-05-24T10:14:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4238747" lon="8.5168559">
+<ele>438.9791260</ele>
+<time>2010-05-24T10:14:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4239865" lon="8.5166121">
+<ele>437.5371094</ele>
+<time>2010-05-24T10:14:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4240877" lon="8.5163207">
+<ele>436.5759277</ele>
+<time>2010-05-24T10:14:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4241938" lon="8.5160233">
+<ele>435.1339111</ele>
+<time>2010-05-24T10:14:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4242913" lon="8.5157877">
+<ele>433.2113037</ele>
+<time>2010-05-24T10:14:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4243747" lon="8.5155504">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:14:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4244641" lon="8.5153336">
+<ele>427.4433594</ele>
+<time>2010-05-24T10:14:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4245316" lon="8.5150900">
+<ele>426.4820557</ele>
+<time>2010-05-24T10:14:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4245601" lon="8.5148626">
+<ele>427.4433594</ele>
+<time>2010-05-24T10:15:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4245925" lon="8.5145941">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:15:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4246615" lon="8.5142958">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:15:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4247377" lon="8.5140379">
+<ele>430.8079834</ele>
+<time>2010-05-24T10:15:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4248271" lon="8.5137250">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:15:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4249149" lon="8.5134808">
+<ele>425.0401611</ele>
+<time>2010-05-24T10:15:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4249915" lon="8.5132924">
+<ele>426.4820557</ele>
+<time>2010-05-24T10:15:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4250567" lon="8.5130924">
+<ele>426.9627686</ele>
+<time>2010-05-24T10:15:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4251266" lon="8.5129043">
+<ele>427.4433594</ele>
+<time>2010-05-24T10:15:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4252132" lon="8.5126594">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:15:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4252866" lon="8.5124118">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:16:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4253732" lon="8.5121616">
+<ele>435.1339111</ele>
+<time>2010-05-24T10:16:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4254476" lon="8.5119352">
+<ele>434.1726074</ele>
+<time>2010-05-24T10:16:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4255355" lon="8.5116472">
+<ele>437.5371094</ele>
+<time>2010-05-24T10:16:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4255985" lon="8.5114796">
+<ele>434.6533203</ele>
+<time>2010-05-24T10:16:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4256517" lon="8.5113204">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:16:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4257220" lon="8.5110462">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:16:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4257411" lon="8.5109785">
+<ele>431.7691650</ele>
+<time>2010-05-24T10:16:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4258289" lon="8.5109033">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:16:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4259705" lon="8.5110319">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:16:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4260929" lon="8.5111670">
+<ele>454.8408203</ele>
+<time>2010-05-24T10:16:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262285" lon="8.5112974">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:17:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263938" lon="8.5114530">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:17:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4265564" lon="8.5116187">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:17:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4266948" lon="8.5117591">
+<ele>461.5701904</ele>
+<time>2010-05-24T10:17:24Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4268215" lon="8.5118063">
+<ele>461.5701904</ele>
+<time>2010-05-24T10:17:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4268722" lon="8.5117721">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:17:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4269610" lon="8.5115986">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:17:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4270706" lon="8.5113488">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:17:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4271376" lon="8.5111637">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:17:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4271809" lon="8.5109894">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:17:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4272485" lon="8.5109991">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:17:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4273011" lon="8.5110749">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:18:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4274023" lon="8.5110358">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:18:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4274390" lon="8.5109104">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:18:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275005" lon="8.5106814">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:18:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275378" lon="8.5104039">
+<ele>448.1118164</ele>
+<time>2010-05-24T10:18:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275598" lon="8.5100924">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:18:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275799" lon="8.5097744">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:18:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4276137" lon="8.5094544">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:18:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4276545" lon="8.5091364">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:18:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4277114" lon="8.5088348">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:18:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4277604" lon="8.5085800">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:18:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4277654" lon="8.5082786">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:19:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4277176" lon="8.5079734">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:19:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4276466" lon="8.5077498">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:19:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275349" lon="8.5074166">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:19:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4274505" lon="8.5071978">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:19:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4273433" lon="8.5070463">
+<ele>454.8408203</ele>
+<time>2010-05-24T10:19:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4272262" lon="8.5069903">
+<ele>454.8408203</ele>
+<time>2010-05-24T10:19:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4271485" lon="8.5069727">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:19:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4270670" lon="8.5067443">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:19:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4269730" lon="8.5066124">
+<ele>456.2829590</ele>
+<time>2010-05-24T10:19:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4268501" lon="8.5066220">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:19:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4267394" lon="8.5066396">
+<ele>459.1668701</ele>
+<time>2010-05-24T10:19:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4267077" lon="8.5065777">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:20:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4266346" lon="8.5062633">
+<ele>460.1281738</ele>
+<time>2010-05-24T10:20:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4265492" lon="8.5060137">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:20:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4264678" lon="8.5058222">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:20:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263890" lon="8.5055497">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:20:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263098" lon="8.5053017">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:20:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262736" lon="8.5050660">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:20:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262356" lon="8.5047727">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:20:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262063" lon="8.5045265">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:20:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261829" lon="8.5042774">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:20:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261792" lon="8.5040143">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:21:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261778" lon="8.5037542">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:21:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261699" lon="8.5033977">
+<ele>444.7470703</ele>
+<time>2010-05-24T10:21:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261724" lon="8.5031248">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:21:24Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261635" lon="8.5028600">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:21:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261492" lon="8.5026012">
+<ele>444.7470703</ele>
+<time>2010-05-24T10:21:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261488" lon="8.5022852">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:21:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261525" lon="8.5020370">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:21:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261559" lon="8.5018247">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:21:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261673" lon="8.5015791">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:22:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4261871" lon="8.5012615">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:22:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262161" lon="8.5009960">
+<ele>441.8631592</ele>
+<time>2010-05-24T10:22:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262601" lon="8.5006814">
+<ele>441.8631592</ele>
+<time>2010-05-24T10:22:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4262994" lon="8.5003696">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:22:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263270" lon="8.5001007">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:22:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263481" lon="8.4998661">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:22:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>181</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4263870" lon="8.4995522">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:22:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>181</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4264242" lon="8.4992541">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:22:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4264583" lon="8.4990005">
+<ele>438.9791260</ele>
+<time>2010-05-24T10:22:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4265020" lon="8.4987863">
+<ele>439.9404297</ele>
+<time>2010-05-24T10:23:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4265653" lon="8.4985318">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:23:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4266382" lon="8.4982916">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:23:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4267605" lon="8.4980875">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:23:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4268993" lon="8.4979153">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:23:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4270095" lon="8.4977128">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:23:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4270345" lon="8.4974946">
+<ele>444.7470703</ele>
+<time>2010-05-24T10:23:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4269921" lon="8.4971849">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:23:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4269553" lon="8.4969186">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:23:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4269901" lon="8.4967015">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:23:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4270929" lon="8.4964384">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:24:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4271780" lon="8.4962695">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:24:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4273197" lon="8.4961230">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:24:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4273816" lon="8.4960814">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:24:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4275207" lon="8.4958856">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:24:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4276687" lon="8.4957102">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:24:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4277935" lon="8.4956101">
+<ele>438.4985352</ele>
+<time>2010-05-24T10:24:37Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4279318" lon="8.4955132">
+<ele>436.5759277</ele>
+<time>2010-05-24T10:24:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4280633" lon="8.4954444">
+<ele>435.1339111</ele>
+<time>2010-05-24T10:24:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4281362" lon="8.4954323">
+<ele>438.9791260</ele>
+<time>2010-05-24T10:24:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4281805" lon="8.4955035">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:24:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4282798" lon="8.4956053">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:25:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4284464" lon="8.4955258">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:25:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4285859" lon="8.4953816">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:25:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4287318" lon="8.4952786">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:25:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4289008" lon="8.4952180">
+<ele>456.7635498</ele>
+<time>2010-05-24T10:25:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4290587" lon="8.4951390">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:25:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291797" lon="8.4950795">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:25:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293287" lon="8.4949875">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:25:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4294795" lon="8.4948585">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:25:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4295790" lon="8.4947371">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:25:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4296619" lon="8.4945877">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:25:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4297710" lon="8.4944539">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:25:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4298710" lon="8.4943408">
+<ele>439.4597168</ele>
+<time>2010-05-24T10:25:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4299924" lon="8.4941632">
+<ele>436.0952148</ele>
+<time>2010-05-24T10:26:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4301032" lon="8.4940320">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:26:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4302073" lon="8.4939018">
+<ele>431.2885742</ele>
+<time>2010-05-24T10:26:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4303198" lon="8.4937691">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:26:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4304357" lon="8.4937221">
+<ele>438.4985352</ele>
+<time>2010-05-24T10:26:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4305866" lon="8.4937187">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:26:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4307098" lon="8.4937364">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:26:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4308270" lon="8.4937416">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:26:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4309134" lon="8.4939887">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:26:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4308782" lon="8.4942670">
+<ele>437.0565186</ele>
+<time>2010-05-24T10:26:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4308142" lon="8.4944408">
+<ele>433.2113037</ele>
+<time>2010-05-24T10:26:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4307959" lon="8.4945756">
+<ele>436.5759277</ele>
+<time>2010-05-24T10:27:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4307595" lon="8.4947797">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:27:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4306654" lon="8.4949557">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:27:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4305917" lon="8.4951169">
+<ele>445.2276611</ele>
+<time>2010-05-24T10:27:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4304794" lon="8.4952852">
+<ele>444.7470703</ele>
+<time>2010-05-24T10:27:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4304093" lon="8.4954486">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:27:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4303078" lon="8.4956649">
+<ele>450.0344238</ele>
+<time>2010-05-24T10:27:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4301836" lon="8.4958287">
+<ele>450.0344238</ele>
+<time>2010-05-24T10:27:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4300452" lon="8.4960271">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:27:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4299367" lon="8.4962384">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:27:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4298738" lon="8.4963839">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:27:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4298126" lon="8.4965333">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:28:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4296992" lon="8.4967438">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:28:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4296075" lon="8.4969565">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:28:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4295342" lon="8.4970989">
+<ele>455.3215332</ele>
+<time>2010-05-24T10:28:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4294443" lon="8.4972108">
+<ele>456.7635498</ele>
+<time>2010-05-24T10:28:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293188" lon="8.4973528">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:28:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4292060" lon="8.4975087">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:28:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291012" lon="8.4976898">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:28:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4290538" lon="8.4978684">
+<ele>457.2442627</ele>
+<time>2010-05-24T10:28:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4290507" lon="8.4980935">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:28:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4290641" lon="8.4982829">
+<ele>450.0344238</ele>
+<time>2010-05-24T10:28:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4290917" lon="8.4985871">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:29:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291090" lon="8.4988202">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:29:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291417" lon="8.4990796">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:29:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291999" lon="8.4994097">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:29:20Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4292091" lon="8.4996164">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:29:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291910" lon="8.4999386">
+<ele>442.8244629</ele>
+<time>2010-05-24T10:29:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291647" lon="8.5001603">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:29:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291439" lon="8.5003857">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:29:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291387" lon="8.5006149">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:29:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291355" lon="8.5008421">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:29:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291349" lon="8.5011314">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:30:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291328" lon="8.5014325">
+<ele>448.1118164</ele>
+<time>2010-05-24T10:30:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291276" lon="8.5016900">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:30:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291330" lon="8.5019105">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:30:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291418" lon="8.5021594">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:30:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291478" lon="8.5024181">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:30:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291572" lon="8.5027021">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:30:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4291941" lon="8.5029730">
+<ele>448.1118164</ele>
+<time>2010-05-24T10:30:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4292598" lon="8.5032407">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:30:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293187" lon="8.5035150">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:31:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293407" lon="8.5038154">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:31:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293666" lon="8.5041144">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:31:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293759" lon="8.5044119">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:31:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4293986" lon="8.5046477">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:31:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4295146" lon="8.5046062">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:31:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4296940" lon="8.5043536">
+<ele>450.0344238</ele>
+<time>2010-05-24T10:31:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4298761" lon="8.5041301">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:31:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4299976" lon="8.5039516">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:31:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4301491" lon="8.5037144">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:32:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4303063" lon="8.5034596">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:32:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4304606" lon="8.5032492">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:32:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4306324" lon="8.5030786">
+<ele>447.6309814</ele>
+<time>2010-05-24T10:32:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4308093" lon="8.5029503">
+<ele>447.1502686</ele>
+<time>2010-05-24T10:32:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4309937" lon="8.5028445">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:32:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4311782" lon="8.5027467">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:32:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4313374" lon="8.5026613">
+<ele>446.1890869</ele>
+<time>2010-05-24T10:32:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4315231" lon="8.5025445">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:32:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4316744" lon="8.5024241">
+<ele>444.2664795</ele>
+<time>2010-05-24T10:33:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4318338" lon="8.5023016">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:33:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4320212" lon="8.5021684">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:33:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4322037" lon="8.5020437">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:33:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4323612" lon="8.5019293">
+<ele>439.4597168</ele>
+<time>2010-05-24T10:33:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4325591" lon="8.5017820">
+<ele>438.9791260</ele>
+<time>2010-05-24T10:33:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4327357" lon="8.5016650">
+<ele>438.4985352</ele>
+<time>2010-05-24T10:33:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4329207" lon="8.5016079">
+<ele>438.9791260</ele>
+<time>2010-05-24T10:33:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4331123" lon="8.5016054">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:34:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4333000" lon="8.5016256">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:34:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4335151" lon="8.5016711">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:34:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4336976" lon="8.5016981">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:34:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4338805" lon="8.5017328">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:34:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4341104" lon="8.5017675">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:34:37Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4342976" lon="8.5018310">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:34:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4344566" lon="8.5019154">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:34:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4346124" lon="8.5019902">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:34:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4348001" lon="8.5020519">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:35:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4349891" lon="8.5020715">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:35:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4351548" lon="8.5020822">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:35:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4353547" lon="8.5020977">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:35:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4355207" lon="8.5021088">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:35:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4357183" lon="8.5021236">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:35:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4359182" lon="8.5021526">
+<ele>441.8631592</ele>
+<time>2010-05-24T10:35:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4361098" lon="8.5021705">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:35:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4362701" lon="8.5021836">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:35:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4364524" lon="8.5021527">
+<ele>440.9018555</ele>
+<time>2010-05-24T10:36:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4366250" lon="8.5020625">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:36:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4367965" lon="8.5019930">
+<ele>441.8631592</ele>
+<time>2010-05-24T10:36:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4369711" lon="8.5019924">
+<ele>441.3824463</ele>
+<time>2010-05-24T10:36:24Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4371431" lon="8.5020293">
+<ele>443.7857666</ele>
+<time>2010-05-24T10:36:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4373394" lon="8.5020941">
+<ele>445.7083740</ele>
+<time>2010-05-24T10:36:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4374843" lon="8.5021272">
+<ele>448.1118164</ele>
+<time>2010-05-24T10:36:45Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4376036" lon="8.5021544">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:36:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4376305" lon="8.5022800">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:36:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4376202" lon="8.5023178">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:36:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4375261" lon="8.5026256">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:37:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4375159" lon="8.5027854">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:37:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4375634" lon="8.5029827">
+<ele>448.5924072</ele>
+<time>2010-05-24T10:37:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4376853" lon="8.5030558">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:37:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4378438" lon="8.5030872">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:37:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4380131" lon="8.5030870">
+<ele>451.4763184</ele>
+<time>2010-05-24T10:37:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4382137" lon="8.5030632">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:37:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4383923" lon="8.5030503">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:37:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4385732" lon="8.5030346">
+<ele>453.3989258</ele>
+<time>2010-05-24T10:37:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4387523" lon="8.5030162">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:38:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4389223" lon="8.5030024">
+<ele>455.8022461</ele>
+<time>2010-05-24T10:38:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4390772" lon="8.5029871">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:38:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4392254" lon="8.5029788">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:38:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4393521" lon="8.5029689">
+<ele>463.0120850</ele>
+<time>2010-05-24T10:38:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4394728" lon="8.5029653">
+<ele>464.9348145</ele>
+<time>2010-05-24T10:38:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>181</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4396237" lon="8.5029473">
+<ele>466.3767090</ele>
+<time>2010-05-24T10:38:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>182</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4397727" lon="8.5029052">
+<ele>468.7800293</ele>
+<time>2010-05-24T10:38:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>183</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4399312" lon="8.5028579">
+<ele>469.7413330</ele>
+<time>2010-05-24T10:38:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>184</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4400970" lon="8.5028147">
+<ele>469.2607422</ele>
+<time>2010-05-24T10:39:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>183</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4402635" lon="8.5027673">
+<ele>470.7026367</ele>
+<time>2010-05-24T10:39:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>181</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4404161" lon="8.5027363">
+<ele>472.1446533</ele>
+<time>2010-05-24T10:39:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>181</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4405321" lon="8.5026968">
+<ele>473.5866699</ele>
+<time>2010-05-24T10:39:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>182</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4406754" lon="8.5026673">
+<ele>474.5479736</ele>
+<time>2010-05-24T10:39:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>182</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4408285" lon="8.5026369">
+<ele>475.9898682</ele>
+<time>2010-05-24T10:39:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>183</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4409572" lon="8.5026152">
+<ele>478.3931885</ele>
+<time>2010-05-24T10:39:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>185</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4410625" lon="8.5025426">
+<ele>483.1998291</ele>
+<time>2010-05-24T10:39:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>187</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4411719" lon="8.5025349">
+<ele>481.2772217</ele>
+<time>2010-05-24T10:39:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>188</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4412841" lon="8.5024963">
+<ele>479.8350830</ele>
+<time>2010-05-24T10:39:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>186</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4414317" lon="8.5024623">
+<ele>480.3159180</ele>
+<time>2010-05-24T10:40:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>184</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4415919" lon="8.5023928">
+<ele>476.9512939</ele>
+<time>2010-05-24T10:40:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>182</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4417097" lon="8.5023380">
+<ele>476.9512939</ele>
+<time>2010-05-24T10:40:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>180</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4418499" lon="8.5022492">
+<ele>482.2385254</ele>
+<time>2010-05-24T10:40:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>179</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4419438" lon="8.5022268">
+<ele>484.1611328</ele>
+<time>2010-05-24T10:40:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4420694" lon="8.5021824">
+<ele>483.6804199</ele>
+<time>2010-05-24T10:40:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4421858" lon="8.5021314">
+<ele>481.2772217</ele>
+<time>2010-05-24T10:40:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4423365" lon="8.5020707">
+<ele>478.3931885</ele>
+<time>2010-05-24T10:40:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4424241" lon="8.5020345">
+<ele>476.4705811</ele>
+<time>2010-05-24T10:40:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4425448" lon="8.5019428">
+<ele>475.0286865</ele>
+<time>2010-05-24T10:40:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4426482" lon="8.5018599">
+<ele>473.5866699</ele>
+<time>2010-05-24T10:40:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4427503" lon="8.5017634">
+<ele>472.6253662</ele>
+<time>2010-05-24T10:40:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4428692" lon="8.5016884">
+<ele>471.6639404</ele>
+<time>2010-05-24T10:41:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4429491" lon="8.5016777">
+<ele>472.6253662</ele>
+<time>2010-05-24T10:41:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4430192" lon="8.5017051">
+<ele>479.8350830</ele>
+<time>2010-05-24T10:41:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4430985" lon="8.5018222">
+<ele>485.6030273</ele>
+<time>2010-05-24T10:41:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4431731" lon="8.5019215">
+<ele>489.9290771</ele>
+<time>2010-05-24T10:41:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4432253" lon="8.5019936">
+<ele>492.8129883</ele>
+<time>2010-05-24T10:41:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4433652" lon="8.5021707">
+<ele>498.1003418</ele>
+<time>2010-05-24T10:41:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4434808" lon="8.5022913">
+<ele>501.9455566</ele>
+<time>2010-05-24T10:41:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4435917" lon="8.5024137">
+<ele>503.3874512</ele>
+<time>2010-05-24T10:41:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4436171" lon="8.5024456">
+<ele>502.4261475</ele>
+<time>2010-05-24T10:41:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4437391" lon="8.5025612">
+<ele>502.9067383</ele>
+<time>2010-05-24T10:41:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4438402" lon="8.5026324">
+<ele>508.6746826</ele>
+<time>2010-05-24T10:41:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4439043" lon="8.5026885">
+<ele>510.5972900</ele>
+<time>2010-05-24T10:42:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>178</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4440355" lon="8.5027569">
+<ele>518.2878418</ele>
+<time>2010-05-24T10:42:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4440497" lon="8.5027839">
+<ele>518.2878418</ele>
+<time>2010-05-24T10:42:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4441903" lon="8.5028804">
+<ele>518.7685547</ele>
+<time>2010-05-24T10:42:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4443242" lon="8.5029628">
+<ele>518.7685547</ele>
+<time>2010-05-24T10:42:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4444308" lon="8.5030594">
+<ele>520.6912842</ele>
+<time>2010-05-24T10:42:24Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4444602" lon="8.5030928">
+<ele>522.1331787</ele>
+<time>2010-05-24T10:42:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4445667" lon="8.5032544">
+<ele>525.4978027</ele>
+<time>2010-05-24T10:42:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4446861" lon="8.5033700">
+<ele>525.0172119</ele>
+<time>2010-05-24T10:42:38Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4447588" lon="8.5034449">
+<ele>525.9783936</ele>
+<time>2010-05-24T10:42:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4448322" lon="8.5035745">
+<ele>528.8625488</ele>
+<time>2010-05-24T10:42:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4449037" lon="8.5036952">
+<ele>531.7463379</ele>
+<time>2010-05-24T10:42:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4449534" lon="8.5037713">
+<ele>531.7463379</ele>
+<time>2010-05-24T10:42:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4451391" lon="8.5039137">
+<ele>535.5915527</ele>
+<time>2010-05-24T10:43:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4452302" lon="8.5040030">
+<ele>533.6689453</ele>
+<time>2010-05-24T10:43:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4453866" lon="8.5041266">
+<ele>532.7077637</ele>
+<time>2010-05-24T10:43:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4455219" lon="8.5042313">
+<ele>528.3818359</ele>
+<time>2010-05-24T10:43:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4456100" lon="8.5043039">
+<ele>527.9010010</ele>
+<time>2010-05-24T10:43:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4456825" lon="8.5044300">
+<ele>524.0557861</ele>
+<time>2010-05-24T10:43:25Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4458000" lon="8.5046028">
+<ele>517.3266602</ele>
+<time>2010-05-24T10:43:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4458930" lon="8.5047560">
+<ele>513.9620361</ele>
+<time>2010-05-24T10:43:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4459757" lon="8.5049227">
+<ele>513.9620361</ele>
+<time>2010-05-24T10:43:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4460409" lon="8.5050833">
+<ele>509.1553955</ele>
+<time>2010-05-24T10:43:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4461329" lon="8.5052316">
+<ele>507.2327881</ele>
+<time>2010-05-24T10:43:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4462632" lon="8.5053734">
+<ele>509.6361084</ele>
+<time>2010-05-24T10:43:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4463707" lon="8.5055098">
+<ele>509.1553955</ele>
+<time>2010-05-24T10:44:00Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4464441" lon="8.5055862">
+<ele>509.6361084</ele>
+<time>2010-05-24T10:44:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>170</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4465157" lon="8.5055974">
+<ele>510.5972900</ele>
+<time>2010-05-24T10:44:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4466329" lon="8.5056947">
+<ele>510.1166992</ele>
+<time>2010-05-24T10:44:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4467588" lon="8.5058735">
+<ele>508.1940918</ele>
+<time>2010-05-24T10:44:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4467866" lon="8.5059009">
+<ele>509.6361084</ele>
+<time>2010-05-24T10:44:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4468609" lon="8.5061750">
+<ele>510.1166992</ele>
+<time>2010-05-24T10:44:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4469002" lon="8.5064028">
+<ele>510.5972900</ele>
+<time>2010-05-24T10:44:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4469114" lon="8.5065012">
+<ele>508.6746826</ele>
+<time>2010-05-24T10:44:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4470073" lon="8.5067686">
+<ele>500.9841309</ele>
+<time>2010-05-24T10:44:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4470820" lon="8.5069245">
+<ele>499.0615234</ele>
+<time>2010-05-24T10:44:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4472023" lon="8.5070763">
+<ele>499.0615234</ele>
+<time>2010-05-24T10:44:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4472807" lon="8.5071300">
+<ele>496.6583252</ele>
+<time>2010-05-24T10:44:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4473628" lon="8.5072322">
+<ele>495.6968994</ele>
+<time>2010-05-24T10:44:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4474804" lon="8.5073694">
+<ele>494.7355957</ele>
+<time>2010-05-24T10:45:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4475208" lon="8.5074154">
+<ele>494.7355957</ele>
+<time>2010-05-24T10:45:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4476468" lon="8.5076103">
+<ele>495.6968994</ele>
+<time>2010-05-24T10:45:12Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4477326" lon="8.5078449">
+<ele>493.7742920</ele>
+<time>2010-05-24T10:45:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4477910" lon="8.5080765">
+<ele>492.3323975</ele>
+<time>2010-05-24T10:45:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4478360" lon="8.5082821">
+<ele>493.2935791</ele>
+<time>2010-05-24T10:45:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4478553" lon="8.5084490">
+<ele>494.2550049</ele>
+<time>2010-05-24T10:45:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4479146" lon="8.5085294">
+<ele>493.7742920</ele>
+<time>2010-05-24T10:45:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4480003" lon="8.5086664">
+<ele>493.2935791</ele>
+<time>2010-05-24T10:45:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4481251" lon="8.5088711">
+<ele>496.6583252</ele>
+<time>2010-05-24T10:45:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4482187" lon="8.5090574">
+<ele>498.5809326</ele>
+<time>2010-05-24T10:45:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4482704" lon="8.5092181">
+<ele>500.9841309</ele>
+<time>2010-05-24T10:45:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4483505" lon="8.5094502">
+<ele>496.1777344</ele>
+<time>2010-05-24T10:46:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4483860" lon="8.5096621">
+<ele>491.8516846</ele>
+<time>2010-05-24T10:46:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+</trkseg>
+<trkseg>
+<trkpt lat="47.4484735" lon="8.5098942">
+<ele>488.0064697</ele>
+<time>2010-05-24T10:46:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4485349" lon="8.5101138">
+<ele>486.0837402</ele>
+<time>2010-05-24T10:46:20Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4485972" lon="8.5103635">
+<ele>480.3159180</ele>
+<time>2010-05-24T10:46:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4486472" lon="8.5106111">
+<ele>479.3544922</ele>
+<time>2010-05-24T10:46:31Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4486748" lon="8.5108002">
+<ele>485.1224365</ele>
+<time>2010-05-24T10:46:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4486589" lon="8.5109705">
+<ele>493.2935791</ele>
+<time>2010-05-24T10:46:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4486566" lon="8.5109887">
+<ele>494.7355957</ele>
+<time>2010-05-24T10:46:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4487343" lon="8.5111901">
+<ele>496.6583252</ele>
+<time>2010-05-24T10:46:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4487904" lon="8.5113524">
+<ele>492.8129883</ele>
+<time>2010-05-24T10:46:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4488292" lon="8.5114213">
+<ele>494.2550049</ele>
+<time>2010-05-24T10:46:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4489363" lon="8.5116368">
+<ele>492.3323975</ele>
+<time>2010-05-24T10:47:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4490397" lon="8.5117335">
+<ele>488.4871826</ele>
+<time>2010-05-24T10:47:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4491535" lon="8.5118332">
+<ele>483.6804199</ele>
+<time>2010-05-24T10:47:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4492753" lon="8.5119300">
+<ele>481.7578125</ele>
+<time>2010-05-24T10:47:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4493854" lon="8.5120279">
+<ele>479.8350830</ele>
+<time>2010-05-24T10:47:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4495166" lon="8.5121640">
+<ele>477.9124756</ele>
+<time>2010-05-24T10:47:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4496191" lon="8.5123112">
+<ele>476.9512939</ele>
+<time>2010-05-24T10:47:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4497057" lon="8.5124786">
+<ele>476.9512939</ele>
+<time>2010-05-24T10:47:37Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4498037" lon="8.5126727">
+<ele>478.8739014</ele>
+<time>2010-05-24T10:47:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4499316" lon="8.5128913">
+<ele>480.7966309</ele>
+<time>2010-05-24T10:47:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4500448" lon="8.5130775">
+<ele>482.7192383</ele>
+<time>2010-05-24T10:47:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4501486" lon="8.5132557">
+<ele>483.1998291</ele>
+<time>2010-05-24T10:48:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4502658" lon="8.5134214">
+<ele>483.1998291</ele>
+<time>2010-05-24T10:48:08Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4503717" lon="8.5135768">
+<ele>483.6804199</ele>
+<time>2010-05-24T10:48:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4504232" lon="8.5136406">
+<ele>482.7192383</ele>
+<time>2010-05-24T10:48:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4505574" lon="8.5137558">
+<ele>484.1611328</ele>
+<time>2010-05-24T10:48:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4507039" lon="8.5138052">
+<ele>486.0837402</ele>
+<time>2010-05-24T10:48:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4508552" lon="8.5138207">
+<ele>486.0837402</ele>
+<time>2010-05-24T10:48:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4509649" lon="8.5138052">
+<ele>485.6030273</ele>
+<time>2010-05-24T10:48:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4510079" lon="8.5138161">
+<ele>486.0837402</ele>
+<time>2010-05-24T10:48:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4510892" lon="8.5138109">
+<ele>486.0837402</ele>
+<time>2010-05-24T10:48:46Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4512878" lon="8.5137954">
+<ele>482.7192383</ele>
+<time>2010-05-24T10:48:52Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4514863" lon="8.5138141">
+<ele>480.7966309</ele>
+<time>2010-05-24T10:48:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4516478" lon="8.5138511">
+<ele>480.3159180</ele>
+<time>2010-05-24T10:49:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4516746" lon="8.5138627">
+<ele>479.8350830</ele>
+<time>2010-05-24T10:49:05Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4517928" lon="8.5138310">
+<ele>480.3159180</ele>
+<time>2010-05-24T10:49:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4520351" lon="8.5138104">
+<ele>478.3931885</ele>
+<time>2010-05-24T10:49:18Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4522112" lon="8.5137838">
+<ele>479.8350830</ele>
+<time>2010-05-24T10:49:24Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4523072" lon="8.5136936">
+<ele>477.9124756</ele>
+<time>2010-05-24T10:49:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4524305" lon="8.5135762">
+<ele>477.9124756</ele>
+<time>2010-05-24T10:49:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4525419" lon="8.5134980">
+<ele>475.5092773</ele>
+<time>2010-05-24T10:49:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4526434" lon="8.5134406">
+<ele>473.5866699</ele>
+<time>2010-05-24T10:49:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4527485" lon="8.5133556">
+<ele>472.1446533</ele>
+<time>2010-05-24T10:49:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4528774" lon="8.5132162">
+<ele>470.7026367</ele>
+<time>2010-05-24T10:49:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>153</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4529709" lon="8.5131302">
+<ele>470.7026367</ele>
+<time>2010-05-24T10:49:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4530314" lon="8.5130757">
+<ele>470.7026367</ele>
+<time>2010-05-24T10:50:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4532903" lon="8.5129675">
+<ele>468.2993164</ele>
+<time>2010-05-24T10:50:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4534919" lon="8.5129168">
+<ele>468.2993164</ele>
+<time>2010-05-24T10:50:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4536523" lon="8.5128655">
+<ele>469.2607422</ele>
+<time>2010-05-24T10:50:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4537911" lon="8.5128116">
+<ele>471.1833496</ele>
+<time>2010-05-24T10:50:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4539249" lon="8.5127759">
+<ele>472.6253662</ele>
+<time>2010-05-24T10:50:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4540758" lon="8.5127234">
+<ele>471.6639404</ele>
+<time>2010-05-24T10:50:38Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4542580" lon="8.5126867">
+<ele>471.6639404</ele>
+<time>2010-05-24T10:50:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4544179" lon="8.5126286">
+<ele>472.1446533</ele>
+<time>2010-05-24T10:50:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4545325" lon="8.5126034">
+<ele>471.1833496</ele>
+<time>2010-05-24T10:50:53Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4546551" lon="8.5125546">
+<ele>470.2219238</ele>
+<time>2010-05-24T10:50:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4547895" lon="8.5125283">
+<ele>466.8574219</ele>
+<time>2010-05-24T10:51:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4549041" lon="8.5124862">
+<ele>465.8961182</ele>
+<time>2010-05-24T10:51:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4549936" lon="8.5124325">
+<ele>464.4541016</ele>
+<time>2010-05-24T10:51:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4551617" lon="8.5123185">
+<ele>463.9733887</ele>
+<time>2010-05-24T10:51:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4553195" lon="8.5122014">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:51:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4553454" lon="8.5121832">
+<ele>459.6475830</ele>
+<time>2010-05-24T10:51:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4554438" lon="8.5122738">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:51:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4555214" lon="8.5125374">
+<ele>461.0894775</ele>
+<time>2010-05-24T10:51:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4555860" lon="8.5127940">
+<ele>462.0507813</ele>
+<time>2010-05-24T10:51:39Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4556324" lon="8.5130068">
+<ele>462.5313721</ele>
+<time>2010-05-24T10:51:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4556854" lon="8.5131710">
+<ele>463.0120850</ele>
+<time>2010-05-24T10:51:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4557492" lon="8.5134533">
+<ele>462.0507813</ele>
+<time>2010-05-24T10:51:55Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4557949" lon="8.5136822">
+<ele>460.6087646</ele>
+<time>2010-05-24T10:52:01Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4558069" lon="8.5138839">
+<ele>460.1281738</ele>
+<time>2010-05-24T10:52:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4558209" lon="8.5140388">
+<ele>459.1668701</ele>
+<time>2010-05-24T10:52:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4558350" lon="8.5142036">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:52:14Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4558877" lon="8.5145600">
+<ele>458.6861572</ele>
+<time>2010-05-24T10:52:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559161" lon="8.5148910">
+<ele>457.2442627</ele>
+<time>2010-05-24T10:52:29Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>160</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559181" lon="8.5151246">
+<ele>456.7635498</ele>
+<time>2010-05-24T10:52:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559467" lon="8.5153251">
+<ele>458.2055664</ele>
+<time>2010-05-24T10:52:38Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559441" lon="8.5156040">
+<ele>456.7635498</ele>
+<time>2010-05-24T10:52:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559466" lon="8.5158881">
+<ele>454.3602295</ele>
+<time>2010-05-24T10:52:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559357" lon="8.5162127">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:52:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559189" lon="8.5164755">
+<ele>452.4376221</ele>
+<time>2010-05-24T10:53:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559235" lon="8.5167846">
+<ele>452.9182129</ele>
+<time>2010-05-24T10:53:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>161</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559411" lon="8.5170612">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:53:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559658" lon="8.5173246">
+<ele>453.8796387</ele>
+<time>2010-05-24T10:53:22Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559939" lon="8.5175498">
+<ele>453.3989258</ele>
+<time>2010-05-24T10:53:27Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4560306" lon="8.5178653">
+<ele>451.9570313</ele>
+<time>2010-05-24T10:53:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4560628" lon="8.5181374">
+<ele>450.9956055</ele>
+<time>2010-05-24T10:53:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4560976" lon="8.5184532">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:53:47Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4561389" lon="8.5187469">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:53:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4561926" lon="8.5190773">
+<ele>448.1118164</ele>
+<time>2010-05-24T10:54:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562297" lon="8.5194119">
+<ele>449.5537109</ele>
+<time>2010-05-24T10:54:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562765" lon="8.5197063">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:54:17Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563099" lon="8.5199487">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:54:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563327" lon="8.5202332">
+<ele>450.5150146</ele>
+<time>2010-05-24T10:54:30Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563545" lon="8.5204729">
+<ele>449.0729980</ele>
+<time>2010-05-24T10:54:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563724" lon="8.5207460">
+<ele>446.6696777</ele>
+<time>2010-05-24T10:54:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563864" lon="8.5209729">
+<ele>444.7470703</ele>
+<time>2010-05-24T10:54:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4564084" lon="8.5211635">
+<ele>443.3050537</ele>
+<time>2010-05-24T10:54:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563678" lon="8.5213121">
+<ele>442.3438721</ele>
+<time>2010-05-24T10:54:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4563021" lon="8.5215219">
+<ele>440.4212646</ele>
+<time>2010-05-24T10:55:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562361" lon="8.5217081">
+<ele>439.9404297</ele>
+<time>2010-05-24T10:55:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562125" lon="8.5217840">
+<ele>439.4597168</ele>
+<time>2010-05-24T10:55:11Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562575" lon="8.5218756">
+<ele>436.5759277</ele>
+<time>2010-05-24T10:55:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562876" lon="8.5218779">
+<ele>435.6145020</ele>
+<time>2010-05-24T10:55:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>155</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4564958" lon="8.5218742">
+<ele>432.7307129</ele>
+<time>2010-05-24T10:55:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>153</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4566512" lon="8.5218608">
+<ele>430.3272705</ele>
+<time>2010-05-24T10:55:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>154</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4567813" lon="8.5218399">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:55:32Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4569225" lon="8.5218255">
+<ele>428.4046631</ele>
+<time>2010-05-24T10:55:37Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4570153" lon="8.5219069">
+<ele>427.9239502</ele>
+<time>2010-05-24T10:55:41Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4570763" lon="8.5219955">
+<ele>426.9627686</ele>
+<time>2010-05-24T10:55:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4571852" lon="8.5219766">
+<ele>427.9239502</ele>
+<time>2010-05-24T10:55:48Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4572072" lon="8.5219564">
+<ele>428.4046631</ele>
+<time>2010-05-24T10:55:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>157</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4573182" lon="8.5219942">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:55:54Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>158</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4574048" lon="8.5221227">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:55:58Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4574234" lon="8.5221491">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:55:59Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>159</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4575743" lon="8.5223193">
+<ele>428.4046631</ele>
+<time>2010-05-24T10:56:06Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>163</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4577365" lon="8.5224684">
+<ele>426.9627686</ele>
+<time>2010-05-24T10:56:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4577774" lon="8.5225238">
+<ele>426.9627686</ele>
+<time>2010-05-24T10:56:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4577867" lon="8.5227372">
+<ele>426.4820557</ele>
+<time>2010-05-24T10:56:20Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4577265" lon="8.5229813">
+<ele>426.0013428</ele>
+<time>2010-05-24T10:56:26Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>162</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4576436" lon="8.5232981">
+<ele>426.4820557</ele>
+<time>2010-05-24T10:56:34Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>164</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4576327" lon="8.5233726">
+<ele>426.4820557</ele>
+<time>2010-05-24T10:56:36Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>165</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4575560" lon="8.5236043">
+<ele>427.4433594</ele>
+<time>2010-05-24T10:56:42Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4574552" lon="8.5239862">
+<ele>428.4046631</ele>
+<time>2010-05-24T10:56:51Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>166</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4573955" lon="8.5242474">
+<ele>428.4046631</ele>
+<time>2010-05-24T10:56:57Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4573339" lon="8.5245540">
+<ele>428.8853760</ele>
+<time>2010-05-24T10:57:04Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4572743" lon="8.5248291">
+<ele>430.3272705</ele>
+<time>2010-05-24T10:57:10Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4572346" lon="8.5250929">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:57:16Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>167</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4572019" lon="8.5253084">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:57:21Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>168</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4571615" lon="8.5256312">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:57:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>169</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4571418" lon="8.5258575">
+<ele>429.3659668</ele>
+<time>2010-05-24T10:57:33Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4571050" lon="8.5261626">
+<ele>428.8853760</ele>
+<time>2010-05-24T10:57:40Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4570500" lon="8.5263346">
+<ele>429.8465576</ele>
+<time>2010-05-24T10:57:44Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>171</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4569972" lon="8.5266180">
+<ele>430.3272705</ele>
+<time>2010-05-24T10:57:50Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4569675" lon="8.5268767">
+<ele>430.8079834</ele>
+<time>2010-05-24T10:57:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4569413" lon="8.5271579">
+<ele>430.8079834</ele>
+<time>2010-05-24T10:58:03Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4569216" lon="8.5273971">
+<ele>430.8079834</ele>
+<time>2010-05-24T10:58:09Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>172</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4568755" lon="8.5276246">
+<ele>431.2885742</ele>
+<time>2010-05-24T10:58:15Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>173</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4568127" lon="8.5279172">
+<ele>432.2500000</ele>
+<time>2010-05-24T10:58:23Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4567586" lon="8.5280856">
+<ele>433.2113037</ele>
+<time>2010-05-24T10:58:28Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4566754" lon="8.5282862">
+<ele>433.6918945</ele>
+<time>2010-05-24T10:58:35Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4565316" lon="8.5284949">
+<ele>435.6145020</ele>
+<time>2010-05-24T10:58:43Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>174</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4564047" lon="8.5286094">
+<ele>434.6533203</ele>
+<time>2010-05-24T10:58:49Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>175</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4562368" lon="8.5287134">
+<ele>435.6145020</ele>
+<time>2010-05-24T10:58:56Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4560888" lon="8.5287690">
+<ele>437.0565186</ele>
+<time>2010-05-24T10:59:02Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>176</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4559533" lon="8.5288214">
+<ele>437.5371094</ele>
+<time>2010-05-24T10:59:07Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4558222" lon="8.5288410">
+<ele>437.0565186</ele>
+<time>2010-05-24T10:59:13Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+<trkpt lat="47.4556644" lon="8.5288673">
+<ele>438.0178223</ele>
+<time>2010-05-24T10:59:19Z</time>
+<extensions>
+<tp1:TrackPointExtension>
+<tp1:hr>177</tp1:hr>
+</tp1:TrackPointExtension>
+</extensions>
+</trkpt>
+</trkseg>
+</trk>
+</gpx>

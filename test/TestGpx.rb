@@ -1,18 +1,21 @@
 
 require("test/Common")
+require("libxml")
+require("Xml/XmlSerializable/Serializer")
 require("Gpx/Root")
-require("rexml/document")
 
 class TestGpx < Test::Unit::TestCase
 	
 	def setup()
 		current_dir = File.expand_path(File.dirname(__FILE__))
-		doc = REXML::Document.new(File.new("#{current_dir}/files/sample.gpx"))
+		doc = LibXML::XML::Document.file("#{current_dir}/files/sample.gpx")
 		serializer = XmlSerializable::Serializer.new()
 		@gpx_root = serializer.deserialize(doc.root, Gpx::Root)
 	end
 	
 	def test_track()
+		assert_not_nil(@gpx_root)
+		assert_equal(Gpx::Root, @gpx_root.class, "Deserialization result should be an instance of Gpx::Root")
 		assert_equal(1, @gpx_root.tracks.length, "Sample file should have one track")
 		assert_equal("Track Name", @gpx_root.tracks[0].name, "Sample track name expected to be 'Track Name'")
 	end

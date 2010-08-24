@@ -1,29 +1,35 @@
 
-require("rexml/document")
+require("libxml")
 
 module XmlSerializable
 	
 	class Serializer
 		
 		def serialize(obj, name="element")
-			element = REXML::Element.new(name)
+			element = LibXML::XML::Node.new(name)
 			
 			if (obj.class.kind_of?(XmlSerializable))
 				obj.class.each_property() do |meta|
 					case meta[:xml_type]
 						when :text
-							element.text = serialize_basic_type(obj.instance_variable_get(meta[:attribute]))
+							element << serialize_basic_type(obj.instance_variable_get(meta[:attribute]))
 						when :attribute
-							element.add_attribute(meta[:name], serialize_basic_type(obj.instance_variable_get(meta[:attribute])))
+							element[meta[:name]] = serialize_basic_type(obj.instance_variable_get(meta[:attribute]))
 						when :element
-							element.add_element(serialize(obj.instance_variable_get(meta[:attribute]), meta[:name]))
+							element << serialize(obj.instance_variable_get(meta[:attribute]), meta[:name])
 						when :array
-							array_element = meta[:inner_name] == nil ? element : element.add_element(REXML::Element.new(meta[:name]))
+							if (meta[:inner_name] == nil)
+								array_element = element
+							else
+								array_element = LibXML::XML::Node.new(meta[:name])
+								element << array_element
+							end
+							
 							inner_name = meta[:inner_name] == nil ? meta[:name] : meta[:inner_name]
 							array = obj.instance_variable_get(meta[:attribute])
 							if (array != nil)
 								array.each do |item|
-									array_element.add_element(serialize(item, inner_name))
+									array_element << serialize(item, inner_name)
 								end
 							end
 						else
@@ -31,7 +37,7 @@ module XmlSerializable
 					end
 				end
 			else
-				element.text = serialize_basic_type(obj)
+				element << serialize_basic_type(obj)
 			end
 			
 			return element
@@ -44,15 +50,15 @@ module XmlSerializable
 				obj.class.each_property() do |meta|
 					case meta[:xml_type]
 						when :text
-							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], element.text))
+							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], element.content))
 						when :attribute
-							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], element.attributes[meta[:name]]))
+							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], element[meta[:name]]))
 						when :element
-							obj.instance_variable_set(meta[:attribute], deserialize(element.get_elements(meta[:name]).first(), meta[:type]))
+							obj.instance_variable_set(meta[:attribute], deserialize(get_element(element, [meta[:name]]), meta[:type]))
 						when :array
 							array = []
-							element_path = meta[:inner_name] == nil ? meta[:name] : "#{meta[:name]}/#{meta[:inner_name]}"
-							element.each_element(element_path) do |item|
+							element_path = meta[:inner_name] == nil ? [meta[:name]] : [meta[:name], meta[:inner_name]]
+							get_elements(element, element_path) do |item|
 								array << deserialize(item, meta[:type])
 							end
 							obj.instance_variable_set(meta[:attribute], array)
@@ -61,7 +67,7 @@ module XmlSerializable
 					end
 				end
 			else
-				obj = deserialize_basic_type(type, element.text)
+				obj = deserialize_basic_type(type, element.content)
 			end
 			
 			return obj
@@ -89,6 +95,32 @@ module XmlSerializable
 			end
 			
 			raise("Objects of type #{type} are not supported by this serializer")
+		end
+		
+		def get_element(node, path_segments)
+			segment = path_segments[0]
+			
+			ns = (node.namespaces.default == nil ? nil : "default:#{node.namespaces.default}")
+			current = node.find_first("default:#{segment}", ns)
+			
+			if (path_segments.length > 1)
+				return get_element(current, path_segments.drop(1))
+			else
+				return current
+			end
+		end
+		
+		def get_elements(node, path_segments, &block)
+			segment = path_segments[0]
+			
+			ns = (node.namespaces.default == nil ? nil : "default:#{node.namespaces.default}")
+			node.find("default:#{segment}", ns).each do |child|
+				if (path_segments.length > 1)
+					get_elements(child, path_segments.drop(1), block)
+				else
+					block.call(child)
+				end
+			end
 		end
 		
 	end

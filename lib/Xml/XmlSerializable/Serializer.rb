@@ -5,10 +5,41 @@ module XmlSerializable
 	
 	class Serializer
 		
-		def serialize(obj, name="element")
-			element = LibXML::XML::Node.new(name)
+		def serialize(obj, prefix = nil, name = "element", ns_context = {})
+		
+			if (obj.class.kind_of?(XmlSerializable))
+				ns_context.update(obj.class.get_namespaces())
+			end
+			
+			#if (prefix == nil)
+				element = LibXML::XML::Node.new(name)
+			#else
+			#	element = LibXML::XML::Node.new("#{prefix}:#{name}")
+			#end
+			
+			if (ns_context[prefix] != nil)
+				element.namespaces.namespace = LibXML::XML::Namespace.new(element, ns_context[prefix].prefix, ns_context[prefix].uri)
+			else
+				element.namespaces.namespace = LibXML::XML::Namespace.new(element, nil, "")
+			end
 			
 			if (obj.class.kind_of?(XmlSerializable))
+			
+				puts("#{element.name} -> #{element.namespaces.namespace}")
+				
+				obj.class.each_namespace() do |ns_prefix, ns_name|
+					if (prefix != ns_prefix)
+						puts("prefix: #{ns_prefix}, uri: #{ns_name.uri}")
+						element.namespaces.definitions << LibXML::XML::Namespace.new(element, ns_prefix, ns_name.uri)
+						puts("done")
+					end
+				end
+				
+				
+				#if (element.namespaces.namespace == nil)
+				#	element.namespaces.namespace = LibXML::XML::Namespace.new(element, ns_context[prefix].prefix, ns_context[prefix].uri)
+				#end
+				
 				obj.class.each_property() do |meta|
 					case meta[:xml_type]
 						when :text
@@ -16,7 +47,7 @@ module XmlSerializable
 						when :attribute
 							element[meta[:name]] = serialize_basic_type(obj.instance_variable_get(meta[:attribute]))
 						when :element
-							element << serialize(obj.instance_variable_get(meta[:attribute]), meta[:name])
+							element << serialize(obj.instance_variable_get(meta[:attribute]), meta[:prefix], meta[:name], ns_context)
 						when :array
 							if (meta[:inner_name] == nil)
 								array_element = element
@@ -29,7 +60,7 @@ module XmlSerializable
 							array = obj.instance_variable_get(meta[:attribute])
 							if (array != nil)
 								array.each do |item|
-									array_element << serialize(item, inner_name)
+									array_element << serialize(item, meta[:prefix], inner_name, ns_context)
 								end
 							end
 						else
@@ -37,6 +68,9 @@ module XmlSerializable
 					end
 				end
 			else
+				#if (ns_context[prefix] != nil)
+				#	element.namespaces.namespace = LibXML::XML::Namespace.new(element, ns_context[prefix].prefix, ns_context[prefix].uri)
+				#end
 				element << serialize_basic_type(obj)
 			end
 			

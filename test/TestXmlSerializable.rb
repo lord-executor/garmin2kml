@@ -16,14 +16,16 @@ end
 class RootObject
 	extend(XmlSerializable)
 	
-	attr_accessor(:element, :nested, :attribute, :array)
+	attr_accessor(:element, :nested, :attribute, :array, :nonsattr, :nonselement)
 	
 	xml_namespace(nil, "http://www.test.org/")
 	xml_namespace("test", "http://www.test.org/test")
 	
 	xml_element(:@element, "test", "element", String)
+	xml_element(:@nonselement, nil, "nonselement", String)
 	xml_element(:@nested, nil, "nested", NestedObject)
 	xml_attribute(:@attribute, "test", "attribute", Integer)
+	xml_attribute(:@nonsattr, nil, "nonsattr", String)
 	xml_array(:@array, "test", "array", String, "arrayElement")
 end
 
@@ -34,7 +36,7 @@ class TestXmlSerializable < Test::Unit::TestCase
 	end
 	
 	def test_metadata()
-		assert_equal(4, RootObject.get_xml_metadata().size, "Should have metadata")
+		assert_equal(6, RootObject.get_xml_metadata().size, "Should have metadata")
 		assert_equal(true, RootObject.has_element_attribute?(), "Should have element attribute")
 		assert_equal(false, RootObject.has_text_attribute?(), "Should not have text attribute")
 		
@@ -44,12 +46,22 @@ class TestXmlSerializable < Test::Unit::TestCase
 		assert_equal(NestedObject, nested[:type], "The type of the 'nested' element should be 'NestedObject'")
 	end
 	
+	def test_required()
+		nested = NestedObject.new
+		serializer = XmlSerializable::Serializer.new()
+		assert_raise(XmlSerializable::RequiredPropertyException) do
+			serializer.serialize(nested, nil, "nested")
+		end
+	end
+	
 	def test_out()
 		RootObject.print_metadata()
 		
 		root = RootObject.new()
 		root.element = "element text"
+		root.nonselement = "no namespace"
 		root.attribute = "attribute text"
+		root.nonsattr = "no namespace"
 		root.array = ["array element 1", "array element 2"]
 		root.nested = NestedObject.new
 		root.nested.text = "nested text"

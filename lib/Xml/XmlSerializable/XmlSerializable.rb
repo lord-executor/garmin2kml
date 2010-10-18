@@ -33,9 +33,13 @@ module XmlSerializable
 		@metadata[:xml] << { :xml_type => :text, :attribute => attribute, :type => String,  :is_required => true }
 	end
 	
-	def xml_array(attribute, namespace_prefix, name, type, inner_name = nil, is_required=true)
+	def xml_array(attribute, prefix, name, type, inner_name = nil, is_required=true)
+		xml_array_extended(attribute, prefix, name, type, nil, inner_name, is_required)
+	end
+	
+	def xml_array_extended(attribute, namespace_prefix, name, type, inner_prefix, inner_name, is_required=true)
 		raise("Each class can either have element type properties or a text type property, not both") if has_text_attribute?()
-		@metadata[:xml] << { :xml_type => :array, :attribute => attribute, :prefix => namespace_prefix, :name => name, :type => type, :is_required => is_required, :inner_name => inner_name }
+		@metadata[:xml] << { :xml_type => :array, :attribute => attribute, :prefix => namespace_prefix, :name => name, :type => type, :is_required => is_required, :inner_prefix => inner_prefix, :inner_name => inner_name }
 	end
 	
 	def each_attribute(&block)
@@ -44,9 +48,9 @@ module XmlSerializable
 		end
 	end
 	
-	def each_element()
+	def each_element(&block)
 		@metadata[:xml].each do |meta|
-			yield(meta) if meta[:xml_type] == :element
+			block.call(meta) if meta[:xml_type] == :element
 		end
 	end
 	

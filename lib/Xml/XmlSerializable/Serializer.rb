@@ -11,12 +11,24 @@ module XmlSerializable
 		# Note that the prefix for the root element has to match an XML namespace definition
 		# in obj's class definition.
 		def create_document(obj, root_namespace_prefix, root_element_name)
-			
+			doc = LibXML::XML::Document.new()
+			doc.root = create_element(obj, root_namespace_prefix, root_element_name)
+			return doc
 		end
 		
 		# Creates an XML node form the given object
 		def create_element(obj, prefix, name)
 			return serialize(obj, prefix, name)
+		end
+		
+		# Creates an object of the given type from the provided XML element
+		def from_element(element, type)
+			return deserialize(element, type)
+		end
+		
+		# Creates an object of the given type from the provided XML document
+		def from_document(document, type)
+			return deserialize(document.root, type)
 		end
 		
 		# Serializes the given object as an XML element with the provided namespace prefix and element name
@@ -31,21 +43,26 @@ module XmlSerializable
 			ns_context = create_ns_context(element, obj.class, parent_ns_context)
 			# Assign the right namespace to the newly created node
 			element.namespaces.namespace = ns_context[prefix]
-			puts("#{element.name} -> #{element.namespaces.namespace}")
 			
 			if (obj.class.kind_of?(XmlSerializable))
 				obj.class.each_property() do |meta|
+				
+					target_obj = get_target_object(obj, meta)
 					case meta[:xml_type]
 					
 						when :text
 							# text properties become the inner text of the current XML element
-							element << serialize_basic_type(get_target_object(obj, meta))
+							element << serialize_basic_type(target_obj)
 						when :attribute
 							# attribute properties become attributes of the current XML element
-							element << LibXML::XML::Attr.new(element, meta[:name], serialize_basic_type(get_target_object(obj, meta)), ns_context[meta[:prefix]])
+							if (target_obj != nil)
+								LibXML::XML::Attr.new(element, meta[:name], serialize_basic_type(target_obj), ns_context[meta[:prefix]])
+							end
 						when :element
 							# element properties bocome child elements
-							element << serialize(get_target_object(obj, meta), meta[:prefix], meta[:name], ns_context)
+							if (target_obj != nil)
+								element << serialize(target_obj, meta[:prefix], meta[:name], ns_context)
+							end
 						when :array
 							
 							# If the 'inner_name' attribute is present, then the element name refers to the container
@@ -64,7 +81,7 @@ module XmlSerializable
 							inner_name = meta[:inner_name] == nil ? meta[:name] : meta[:inner_name]
 							inner_prefix = meta[:inner_name] == nil ? meta[:prefix] : meta[:inner_prefix]
 							
-							array = get_target_object(obj, meta)
+							array = target_obj
 							if (array != nil)
 								array.each do |item|
 									array_element << serialize(item, inner_prefix, inner_name, ns_context)
@@ -84,7 +101,7 @@ module XmlSerializable
 		
 		# Deserializes the given element to the specified type
 		def deserialize(element, type, parent_ns_context = {})
-		
+			
 			if (type.kind_of?(XmlSerializable))
 			
 				# If the type is XML-serializable, create a new instance
@@ -101,26 +118,44 @@ module XmlSerializable
 							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], element.content))
 						when :attribute
 							# deserialize attribute property
-							attr = element.attributes.get_attribute_ns(ns_context[meta[:prefix]], meta[:name])
-							obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], attr))
+							if (meta[:prefix] == nil)
+								attr = element.attributes.get_attribute(meta[:name])
+							else
+								attr = element.attributes.get_attribute_ns(ns_context[meta[:prefix]].href, meta[:name])
+							end
+							
+							if (meta[:is_required] && attr == nil)
+								raise(RequiredPropertyException, "#{meta[:name]} is a required attribute for #{obj.class} and may not be missing")
+							elsif (attr != nil)
+								obj.instance_variable_set(meta[:attribute], deserialize_basic_type(meta[:type], attr == nil ? nil : attr.value))
+							end
 						when :element
 							# deserialize element property
-							child = get_child_element(element, ns_context[meta[:prefix]], meta[:name])
-							obj.instance_variable_set(meta[:attribute], deserialize(child, meta[:type], ns_context))
+							child = get_child_element(element, ns_context, meta[:type], meta[:prefix], meta[:name])
+							
+							if (meta[:is_required] && child == nil)
+								raise(RequiredPropertyException, "#{meta[:name]} is a required attribute for #{obj.class} and may not be missing")
+							elsif (child != nil)
+								obj.instance_variable_set(meta[:attribute], deserialize(child, meta[:type], ns_context))
+							end
 						when :array
 							# deserialize array property
 							array = []
-							container = meta[:inner_name] == nil ? element : get_child_element(element, ns_context[meta[:prefix]], meta[:name])
+							container = meta[:inner_name] == nil ? element : get_child_element(element, ns_context, meta[:type], meta[:prefix], meta[:name])
 							
-							# Get the prefix and name for the array elements
-							inner_name = meta[:inner_name] == nil ? meta[:name] : meta[:inner_name]
-							inner_prefix = meta[:inner_name] == nil ? meta[:prefix] : meta[:inner_prefix]
-							
-							each_child_element(element, ns_context[inner_prefix], inner_name) do |child|
-								array << deserialize(child, meta[:type], ns_context)
+							if (meta[:is_required] && container == nil)
+								raise(RequiredPropertyException, "#{meta[:name]} is a required attribute for #{obj.class} and may not be missing")
+							elsif (container != nil)
+								# Get the prefix and name for the array elements
+								inner_name = meta[:inner_name] == nil ? meta[:name] : meta[:inner_name]
+								inner_prefix = meta[:inner_name] == nil ? meta[:prefix] : meta[:inner_prefix]
+								
+								each_child_element(element, ns_context[inner_prefix], inner_name) do |child|
+									array << deserialize(child, meta[:type], ns_context)
+								end
+								
+								obj.instance_variable_set(meta[:attribute], array)
 							end
-							
-							obj.instance_variable_set(meta[:attribute], array)
 						else
 							raise("Unknown XML meta property type #{meta[:xml_type]}")
 					end
@@ -148,13 +183,12 @@ module XmlSerializable
 		def create_ns_context(element, obj_class, parent_ns_context)
 			ns_context = parent_ns_context.clone
 			
-			if (!ns_context.has_key?(nil))
-				ns_context[nil] = ""
-			end
-			
 			if (obj_class.kind_of?(XmlSerializable))
 				obj_class.each_namespace() do |ns_prefix, ns_name|
-					namespace = LibXML::XML::Namespace.new(element, ns_prefix, ns_name.uri)
+					namespace = element.namespaces.find_by_href(ns_name.uri)
+					if (namespace == nil)
+						namespace = LibXML::XML::Namespace.new(element, ns_prefix, ns_name.uri)
+					end
 					ns_context[ns_prefix] = namespace
 				end
 			end
@@ -163,6 +197,9 @@ module XmlSerializable
 		end
 		
 		def serialize_basic_type(obj)
+			if (obj == nil)
+				return ""
+			end
 			if (obj.kind_of?(String))
 				return obj
 			end
@@ -184,9 +221,10 @@ module XmlSerializable
 			raise("Objects of type #{type} are not supported by this serializer")
 		end
 		
-		def get_child_element(element, namespace, name)
+		def get_child_element(element, ns_context, type, prefix, name)
 			element.each_element() do |node|
-				if (node.name == name && node.namespaces.namespace == namespace)
+				child_context = create_ns_context(node, type, ns_context)
+				if (node.name == name && node.namespaces.namespace.href == child_context[prefix].href)
 					return node
 				end
 			end

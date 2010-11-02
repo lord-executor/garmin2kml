@@ -9,7 +9,10 @@ module Gpx
 		
 		attr_accessor(:tracks)
 		
-		xml_array(:@tracks, "trk", Track)
+		xml_namespace(nil, "http://www.topografix.com/GPX/1/1")
+		xml_namespace("tc", "http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2")
+		xml_namespace("tpe", "http://www.garmin.com/xmlschemas/TrackPointExtension/v1")
+		xml_array(:@tracks, nil, "trk", Track)
 	end
 
 end

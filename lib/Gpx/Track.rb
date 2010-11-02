@@ -9,8 +9,8 @@ module Gpx
 		
 		attr_accessor(:name, :segments)
 		
-		xml_element(:@name, "name", String)
-		xml_array(:@segments, "trkseg", TrackSegment)
+		xml_element(:@name, nil, "name", String)
+		xml_array(:@segments, nil, "trkseg", TrackSegment)
 	end
 
 end

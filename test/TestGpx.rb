@@ -35,4 +35,13 @@ class TestGpx < Test::Unit::TestCase
 		assert_equal("2010-05-24T10:05:42Z", point.time, "Time should be 2010-05-24T10:05:42Z")
 	end
 	
+	def test_track_point_extensions()
+		tpe = @gpx_root.tracks[0].segments[0].points[0].extensions.track_point_extensions
+		assert_equal(101, tpe.heart_rate, "Heart rate should be 101")
+		tpe = @gpx_root.tracks[0].segments[0].points[1].extensions.track_point_extensions
+		assert_equal(102, tpe.heart_rate, "Heart rate should be 102")
+		tpe = @gpx_root.tracks[0].segments[0].points[2].extensions.track_point_extensions
+		assert_equal(103, tpe.heart_rate, "Heart rate should be 103")
+	end
+	
 end

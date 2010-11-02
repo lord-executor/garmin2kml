@@ -9,7 +9,7 @@ module Gpx
 		
 		attr_accessor(:points)
 		
-		xml_array(:@points, "trkpt", TrackPoint)
+		xml_array(:@points, nil, "trkpt", TrackPoint)
 	end
 
 end

@@ -8,7 +8,7 @@ module Gpx
 		
 		attr_accessor(:heart_rate)
 		
-		xml_element(:@heart_rate, "tp1:hr", Integer)
+		xml_element(:@heart_rate, "tpe", "hr", Integer)
 	end
 
 end

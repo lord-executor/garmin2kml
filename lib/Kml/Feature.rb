@@ -1,30 +1,18 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Object")
+require("Kml/Style")
 
 module Kml
 	
 	class Feature < Object
-	
-		xml_text_accessor(:name, :description, :visibility, :styleUrl)
-		attr_reader(:styles)
+		attr_accessor(:name, :description, :visibility, :style_url, :styles)
 		
-		def initialize(typeName)
-			super(typeName)
-			
-			@styles = []
-		end
-		
-		def add_style(style)
-			@styles << style
-			self.xmlElement.add_element(style.xmlElement)
-		end
-		
-		def remove_style(style)
-			@styles.delete(style)
-			self.xmlElement.delete_element(style.xmlElement)
-		end
-	
+		xml_element(:@name, nil, "name", String, false)
+		xml_element(:@description, nil, "description", String, false)
+		xml_element(:@visibility, nil, "visibility", String, false)
+		xml_element(:@style_url, nil, "styleUrl", String, false)
+		xml_array_polymorph(:@styles, Style, false)
 	end
 	
 end

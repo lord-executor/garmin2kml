@@ -1,26 +1,28 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Geometry")
 
 module Kml
 	
 	class LineString < Geometry
-	
-		xml_text_accessor(:extrude, :tessellate, :altitudeMode)
-		attr_reader(:coordinates)
+		attr_accessor(:extrude, :tessellate, :altitude_mode)
+		
+		xml_element(:@extrude, nil, "extrude", Integer, false)
+		xml_element(:@tesselate, nil, "tesselate", Integer, false)
+		xml_element(:@altitude_mode, nil, "altitudeMode", String, false)
+		xml_element(:@coordinates, nil, "coordinates", String)
 		
 		def initialize()
-			super("LineString")
-			@coordinates = []
+			@tuples = []
 		end
 		
 		def add_tuple(tuple)
-			self.coordinates << tuple
+			@tuples << tuple
 			set_coordinates()
 		end
 		
 		def remove_tuple(tuple)
-			self.coordinates.delete(tuple)
+			@tuples.delete(tuple)
 			set_coordinates()
 		end
 		
@@ -28,11 +30,10 @@ module Kml
 		
 		def set_coordinates()
 			serialized = ""
-			self.coordinates.each do |tuple|
+			@tuples.each do |tuple|
 				serialized << tuple.to_s << "\n"
 			end
-			
-			set_xml_text_value("coordinates", serialized)
+			@coordinates = serialized
 		end
 		
 	end

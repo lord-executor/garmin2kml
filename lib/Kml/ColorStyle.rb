@@ -1,17 +1,14 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Object")
 
 module Kml
 
 	class ColorStyle < Object
-	
-		xml_text_accessor(:color, :colorMode)
+		attr_accessor(:color, :color_mode)
 		
-		def initialize(typeName)
-			super(typeName)
-		end
-		
+		xml_element(:@color, nil, "color", String)
+		xml_element(:@color_mode, nil, "colorMode", String)
 	end
 	
 end

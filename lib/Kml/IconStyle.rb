@@ -1,32 +1,16 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/ColorStyle")
+require("Kml/Icon")
 
 module Kml
 
 	class IconStyle < ColorStyle
+		attr_accessor(:scale, :heading, :icon)
 		
-		xml_text_accessor(:scale,:heading)
-		attr_reader(:icon)
-		
-		def initialize()
-			super("IconStyle")
-			@icon = nil
-		end
-		
-		def icon()
-			return @icon
-		end
-		
-		def icon=(icon)
-			if (@icon != nil) then
-				self.xmlElement.delete_element(@icon.xmlElement)
-			end
-			
-			@icon = icon
-			self.xmlElement.add_element(@icon.xmlElement)
-		end
-		
+		xml_element(:@scale, nil, "scale", Float)
+		xml_element(:@heading, nil, "heading", Integer)
+		xml_element(:@icon, nil, "Icon", Icon)
 	end
 	
 end

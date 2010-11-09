@@ -4,29 +4,33 @@ require("libxml")
 require("Xml/XmlSerializable/XmlSerializable")
 require("Xml/XmlSerializable/Serializer")
 
-class NestedObject
-	extend(XmlSerializable)
-	
-	attr_accessor(:text)
-	
-	xml_namespace(nil, "http://www.test.org/nested")
-	xml_text(:@text)
-end
+module XmlSerializableSamples
 
-class RootObject
-	extend(XmlSerializable)
+	class NestedObject
+		extend(XmlSerializable)
+		
+		attr_accessor(:text)
+		
+		xml_namespace(nil, "http://www.test.org/nested")
+		xml_text(:@text)
+	end
+
+	class RootObject
+		extend(XmlSerializable)
+		
+		attr_accessor(:element, :nested, :attribute, :array, :nonsattr, :nonselement)
+		
+		xml_namespace(nil, "http://www.test.org/")
+		xml_namespace("test", "http://www.test.org/test")
+		
+		xml_attribute(:@attribute, "test", "attribute", Integer, false)
+		xml_attribute(:@nonsattr, nil, "nonsattr", String, false)
+		xml_element(:@element, "test", "element", String)
+		xml_element(:@nonselement, nil, "nonselement", String)
+		xml_element(:@nested, nil, "nested", NestedObject, false)
+		xml_array(:@array, "test", "array", String, "arrayElement", false)
+	end
 	
-	attr_accessor(:element, :nested, :attribute, :array, :nonsattr, :nonselement)
-	
-	xml_namespace(nil, "http://www.test.org/")
-	xml_namespace("test", "http://www.test.org/test")
-	
-	xml_attribute(:@attribute, "test", "attribute", Integer, false)
-	xml_attribute(:@nonsattr, nil, "nonsattr", String, false)
-	xml_element(:@element, "test", "element", String)
-	xml_element(:@nonselement, nil, "nonselement", String)
-	xml_element(:@nested, nil, "nested", NestedObject, false)
-	xml_array(:@array, "test", "array", String, "arrayElement", false)
 end
 
 
@@ -48,27 +52,27 @@ EOS
 	end
 	
 	def test_metadata()
-		assert_equal(6, RootObject.get_xml_metadata().size, "Should have metadata")
-		assert_equal(true, RootObject.has_element_attribute?(), "Should have element attribute")
-		assert_equal(false, RootObject.has_text_attribute?(), "Should not have text attribute")
+		assert_equal(6, XmlSerializableSamples::RootObject.get_xml_metadata().size, "Should have metadata")
+		assert_equal(true, XmlSerializableSamples::RootObject.has_element_attribute?(), "Should have element attribute")
+		assert_equal(false, XmlSerializableSamples::RootObject.has_text_attribute?(), "Should not have text attribute")
 		
-		array = RootObject.get_xml_metadata().select { |m| m[:name] == "nested" }
+		array = XmlSerializableSamples::RootObject.get_xml_metadata().select { |m| m[:name] == "nested" }
 		assert_equal(1, array.length, "There should be exactly one element attribute named 'nested'")
 		nested = array[0]
-		assert_equal(NestedObject, nested[:type], "The type of the 'nested' element should be 'NestedObject'")
+		assert_equal(XmlSerializableSamples::NestedObject, nested[:type], "The type of the 'nested' element should be 'NestedObject'")
 	end
 	
 	def test_required()
 		serializer = XmlSerializable::Serializer.new()
 		
-		nested = NestedObject.new
+		nested = XmlSerializableSamples::NestedObject.new
 		assert_raise(XmlSerializable::RequiredPropertyException) do
 			serializer.serialize(nested, nil, "nested")
 		end
 		nested.text = "nested.text"
 		assert_not_nil(serializer.serialize(nested, nil, "nested"))
 		
-		root = RootObject.new()
+		root = XmlSerializableSamples::RootObject.new()
 		root.element = "bla"
 		assert_raise(XmlSerializable::RequiredPropertyException) do
 			serializer.serialize(root, nil, "root")
@@ -78,13 +82,13 @@ EOS
 	end
 	
 	def test_serialize()
-		root = RootObject.new()
+		root = XmlSerializableSamples::RootObject.new()
 		root.element = "element text"
 		root.nonselement = "no namespace"
 		root.attribute = 42
 		root.nonsattr = "no namespace"
 		root.array = ["array element 1", "array element 2"]
-		root.nested = NestedObject.new
+		root.nested = XmlSerializableSamples::NestedObject.new()
 		root.nested.text = "nested text"
 		
 		serializer = XmlSerializable::Serializer.new()
@@ -96,9 +100,8 @@ EOS
 	def test_deserialize()
 		doc = LibXML::XML::Document.string(@xml)
 		nested = doc.find_first("/test:myroot/ne:nested", { "test" => "http://www.test.org/", "ne" => "http://www.test.org/nested" })
-		puts("--#{nested.namespaces.definitions}--")
 		serializer = XmlSerializable::Serializer.new()
-		root = serializer.from_document(doc, RootObject)
+		root = serializer.from_document(doc, XmlSerializableSamples::RootObject)
 		
 		assert_equal("element text", root.element)
 		assert_equal("no namespace", root.nonselement)

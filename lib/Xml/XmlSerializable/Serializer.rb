@@ -35,6 +35,7 @@ module XmlSerializable
 		# using the parent_ns_context to resolve namespace references
 		def serialize(obj, prefix, name, parent_ns_context = {})
 		
+			prefix, name = get_name_and_prefix(obj, prefix, name)
 			# Create a new element node
 			element = LibXML::XML::Node.new(name)
 			
@@ -42,7 +43,7 @@ module XmlSerializable
 			# LibXML::XML::Namespace instances. 
 			ns_context = create_ns_context(element, obj.class, parent_ns_context)
 			# Assign the right namespace to the newly created node
-			element.namespaces.namespace = ns_context[prefix]
+			element.namespaces.namespace = ns_context[prefix] unless ns_context[prefix] == nil
 			
 			if (obj.class.kind_of?(XmlSerializable))
 				obj.class.each_property() do |meta|
@@ -100,10 +101,13 @@ module XmlSerializable
 		end
 		
 		# Deserializes the given element to the specified type
-		def deserialize(element, type, parent_ns_context = {})
+		def deserialize(element, type, parent_ns_context = {}, allow_derived = false)
 			
 			if (type.kind_of?(XmlSerializable))
 			
+				if (allow_derived)
+					type = get_derived_type(element, type, parent_ns_context)
+				end
 				# If the type is XML-serializable, create a new instance
 				obj = type.new()
 				
@@ -151,7 +155,7 @@ module XmlSerializable
 								inner_prefix = meta[:inner_name] == nil ? meta[:prefix] : meta[:inner_prefix]
 								
 								each_child_element(element, ns_context[inner_prefix], inner_name) do |child|
-									array << deserialize(child, meta[:type], ns_context)
+									array << deserialize(child, meta[:type], ns_context, inner_name == nil)
 								end
 								
 								obj.instance_variable_set(meta[:attribute], array)
@@ -168,13 +172,37 @@ module XmlSerializable
 		end
 		
 		private
+		
+		def get_name_and_prefix(obj, prefix, name)
+			if (name == nil)
+				if (obj.class.kind_of?(XmlSerializable))
+					xml_name = obj.class.get_name()
+					return [xml_name[:prefix], xml_name[:name]]
+				else
+					raise("No element name provided and object type #{obj.class} is not XmlSerializable")
+				end
+			else
+				return [prefix, name]
+			end
+		end
+		
+		def get_derived_type(node, type, parent_ns_context)
+			candidates = [type] + type.get_subclasses()
+			candidates.each() do |candidate|
+				xml_name = candidate.get_name()
+				ns_context = create_ns_context(node, candidate, parent_ns_context)
+				if (node.namespaces.namespace == ns_context[xml_name[:prefix]] && node.name == xml_name[:name])
+					return candidate
+				end
+			end
+		end
 
 		def get_target_object(obj, meta)
 			child_obj = obj.instance_variable_get(meta[:attribute])
 			
 			# Make sure that required properties have non-nil values (all access to instance variables come through here)
 			if (meta[:is_required] && child_obj == nil)
-				raise(RequiredPropertyException, "#{meta[:name]} is a required attribute for #{obj.class} and may not be nil")
+				raise(RequiredPropertyException, "#{meta[:attribute]} is a required attribute for #{obj.class} and may not be nil")
 			end
 			
 			return child_obj
@@ -234,7 +262,7 @@ module XmlSerializable
 		
 		def each_child_element(element, namespace, name, &block)
 			element.each_element() do |node|
-				if (node.name == name && node.namespaces.namespace == namespace)
+				if (name == nil || (node.name == name && node.namespaces.namespace == namespace))
 					block.call(node)
 				end
 			end

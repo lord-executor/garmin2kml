@@ -1,29 +1,14 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Feature")
+require("Kml/Geometry")
 
 module Kml
 
 	class Placemark < Feature
+		attr_accessor(:geometry)
 		
-		def initialize()
-			super("Placemark")
-			@geometry = nil
-		end
-		
-		def geometry()
-			return @geometry
-		end
-		
-		def geometry=(geometry)
-			if (@geometry != nil) then
-				self.xmlElement.delete_element(@geometry.xmlElement)
-			end
-			
-			@geometry = geometry
-			self.xmlElement.add_element(@geometry.xmlElement)
-		end
-		
+		xml_array_polymorph(:@geometry, Geometry)
 	end
 
 end

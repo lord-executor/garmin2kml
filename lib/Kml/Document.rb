@@ -1,23 +1,16 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Container")
+require("Kml/Feature")
+require("Kml/Placemark")
 
 module Kml
 
 	class Document < Container
+		attr_accessor(:name, :description)
 		
-		attr_accessor :xmlDoc
-		
-		def initialize()
-			super("Document")
-			
-			@xmlDoc = REXML::Document.new()
-			@xmlDoc.add(XMLDecl.new("1.0", "utf-8"))
-			@kmlRoot = @xmlDoc.add_element("kml", { "xmlns" => "http://www.opengis.net/kml/2.2"} )
-			
-			@kmlDocument = @kmlRoot.add_element(self.xmlElement)
-		end
-		
+		xml_element(:@name, nil, "name", String)
+		xml_element(:@description, nil, "description", String)
 	end
 
 end

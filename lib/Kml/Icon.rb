@@ -1,17 +1,13 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/Object")
 
 module Kml
 
 	class Icon < Object
-	
-		xml_text_accessor(:href)
+		attr_accessor(:href)
 		
-		def initialize()
-			super("Icon")
-		end
-		
+		xml_element(:@href, nil, "href", String)
 	end
 	
 end

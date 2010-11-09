@@ -1,17 +1,13 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/ColorStyle")
 
 module Kml
 
 	class LineStyle < ColorStyle
+		attr_accessor(:width)
 		
-		xml_text_accessor(:width)
-		
-		def initialize()
-			super("LineStyle")
-		end
-		
+		xml_element(:@width, nil, "width", Float)
 	end
 	
 end

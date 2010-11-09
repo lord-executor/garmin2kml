@@ -1,15 +1,18 @@
 
-require("rexml/document")
+require("Xml/XmlSerializable/XmlSerializable")
+require("Kml/Feature")
 require("Kml/Geometry")
 
 module Kml
 	
 	class Point < Geometry
-	
-		xml_text_accessor(:extrude, :altitudeMode)
+		attr_accessor(:extrude, :altitude_mode)
+		
+		xml_element(:@extrude, nil, "extrude", Integer, false)
+		xml_element(:@altitude_mode, nil, "altitudeMode", String, false)
+		xml_element(:@coordinates, nil, "coordinates", String)
 		
 		def initialize()
-			super("Point")
 			@position = nil
 		end
 		
@@ -19,7 +22,7 @@ module Kml
 		
 		def position=(position)
 			@position = position
-			set_xml_text_value("coordinates", position.to_s)
+			@coordinates = position.to_s
 		end
 		
 	end

@@ -14,6 +14,7 @@ module Kml
 		
 		def initialize()
 			@tuples = []
+			set_coordinates()
 		end
 		
 		def add_tuple(tuple)

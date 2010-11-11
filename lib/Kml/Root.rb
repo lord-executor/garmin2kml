@@ -24,7 +24,7 @@ module Kml
 		attr_accessor(:document)
 		
 		xml_namespace(nil, "http://www.opengis.net/kml/2.2")
-		xml_element(:@document, nil, "document", Document)
+		xml_element(:@document, nil, "Document", Document)
 	end
 
 end

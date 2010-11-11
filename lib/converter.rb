@@ -3,20 +3,10 @@ current_dir = File.expand_path(File.dirname(__FILE__))
 
 $LOAD_PATH << current_dir
 
-require("rexml/document")
-require("Kml/Document")
-require("Kml/Placemark")
-require("Kml/LineString")
-require("Kml/Point")
-require("Kml/CoordinateTuple")
-require("Kml/Style")
-require("Kml/IconStyle")
-require("Kml/LineStyle")
-require("Kml/Icon")
+require("Gpx/Root")
+require("Kml/Root")
 require("Util/HsvColor")
-require("Xml/Formatters/Reasonable")
-
-include(REXML)
+require("Xml/XmlSerializable/Serializer")
 
 Radius = 6371 # mean earth radius in km
 
@@ -46,12 +36,62 @@ def distance(gpxPoint1, gpxPoint2)
 	return Radius * c
 end
 
-inputFile = ARGV[0]
-input = Document.new(File.new(inputFile))
+class Converter
 
-kmlDoc = Kml::Document.new()
-kmlDoc.name = ARGV[1]
-kmlDoc.description = ARGV[2]
+	def convert(gpx_root)
+		@distance = 0
+		kml_document = Kml::Document.new()
+		
+		gpx_root.tracks.each do |track|
+			process_track(kml_document, track)
+		end
+		
+		kml_root = Kml::Root.new()
+		kml_root.document = kml_document
+		return kml_root
+	end
+	
+	def process_track(kml_document, gpx_track)
+		gpx_track.segments.each do |track_segment|
+			process_track_segment(kml_document, track_segment)
+		end
+	end
+	
+	def process_track_segment(kml_document, gpx_track_segment)
+		line_string = Kml::LineString.new()
+		
+		gpx_track_segment.points.each do |point|
+			#dist = distance(lastPoint, trackPoint)
+			#segmentDistance += dist
+			#totalDistance += dist
+			
+			#line_string.add_tuple(gpx2kml(point))
+		end
+		
+		segment = Kml::Placemark.new()
+		segment.geometry = [line_string]
+		kml_document.features << segment
+	end
+	
+	def gpx2kml(gpx_point)
+		Kml::CoordinateTuple.new(gpx_point.longitude, gpx_point.latitude, gpx_point.elevation)
+	end
+end
+
+serializer = XmlSerializable::Serializer.new()
+
+gpx_doc = LibXML::XML::Document.file(ARGV[0])
+gpx_root = serializer.from_document(gpx_doc,Gpx::Root)
+
+converter = Converter.new()
+kml_root = converter.convert(gpx_root)
+kml_root.document.name = ARGV[1]
+kml_root.document.description = ARGV[2]
+
+result = serializer.create_document(kml_root, nil, "kml")
+puts(result)
+
+exit(0)
 
 # Add starting point
 startPoint = input.get_elements("//trkpt")[0]

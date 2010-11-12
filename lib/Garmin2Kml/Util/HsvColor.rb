@@ -1,5 +1,5 @@
 
-require("Util/Color")
+require("Garmin2Kml/Util/Color")
 
 module Garmin2Kml::Util
 

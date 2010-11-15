@@ -60,13 +60,13 @@ module Garmin2Kml
 			@accumulator.reset_segment()
 			gpx_track_segment.points.each do |point|
 				@accumulator.add_point(point)
-				#line_string.add_tuple(gpx2kml(point))
+				line_string.add_tuple(gpx2kml(point))
 			end
 			
 			segment = Kml::Placemark.new()
 			segment.name = "Segment #{segment_id}"
 			segment.description = @accumulator.get_segment_stats()
-			segment.style_url = style.id
+			segment.style_url = "##{style.id}"
 			segment.styles = [style]
 			segment.geometry = [line_string]
 			kml_document.features << segment

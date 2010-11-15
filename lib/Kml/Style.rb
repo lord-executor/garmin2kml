@@ -9,8 +9,8 @@ module Kml
 	class Style < StyleSelector
 		attr_accessor(:icon_style, :line_style)
 		
-		xml_element(:@icon_style, nil, "iconStyle", IconStyle, false)
-		xml_element(:@line_style, nil, "lineStyle", LineStyle, false)
+		xml_element(:@icon_style, nil, "IconStyle", IconStyle, false)
+		xml_element(:@line_style, nil, "LineStyle", LineStyle, false)
 	end
 	
 end

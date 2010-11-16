@@ -1,5 +1,5 @@
 
-require("Xml/XmlSerializable/XmlSerializable")
+require("XmlSerializable/XmlSerializable")
 require("Gpx/Extensions")
 
 module Gpx

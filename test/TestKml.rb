@@ -1,7 +1,7 @@
 
 require("test/Common")
 require("libxml")
-require("Xml/XmlSerializable/Serializer")
+require("XmlSerializable/Serializer")
 require("Kml/Root")
 
 class TestKml < Test::Unit::TestCase

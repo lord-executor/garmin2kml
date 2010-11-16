@@ -1,6 +1,4 @@
 
-require("Xml/XmlSerializable/XmlSerializable")
-require("Kml/Feature")
 require("Kml/Geometry")
 
 module Kml

@@ -1,5 +1,5 @@
 
-require("Xml/XmlSerializable/XmlName")
+require("XmlSerializable/XmlName")
 
 module XmlSerializable
 	

@@ -1,7 +1,7 @@
 
 require("test/Common")
 require("libxml")
-require("Xml/XmlSerializable/Serializer")
+require("XmlSerializable/Serializer")
 require("Gpx/Root")
 
 class TestGpx < Test::Unit::TestCase

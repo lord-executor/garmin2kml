@@ -1,8 +1,8 @@
 
 require("test/Common")
 require("libxml")
-require("Xml/XmlSerializable/XmlSerializable")
-require("Xml/XmlSerializable/Serializer")
+require("XmlSerializable/XmlSerializable")
+require("XmlSerializable/Serializer")
 
 module XmlSerializableSamples
 

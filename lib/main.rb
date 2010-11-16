@@ -6,7 +6,7 @@ $LOAD_PATH << current_dir
 require("Garmin2Kml/Converter")
 require("Gpx/Root")
 require("Kml/Root")
-require("Xml/XmlSerializable/Serializer")
+require("XmlSerializable/Serializer")
 
 if (ARGV.length < 3) then
 	puts("Usage: <program> <filename> <trackname> <description>")

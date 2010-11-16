@@ -1,5 +1,4 @@
 
-require("Xml/XmlSerializable/XmlSerializable")
 require("Kml/ColorStyle")
 require("Kml/Icon")
 

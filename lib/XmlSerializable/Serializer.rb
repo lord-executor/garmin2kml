@@ -1,6 +1,6 @@
 
 require("libxml")
-require("Xml/XmlSerializable/RequiredPropertyException")
+require("XmlSerializable/RequiredPropertyException")
 
 module XmlSerializable
 	
